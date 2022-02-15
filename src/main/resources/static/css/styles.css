@@ -30,6 +30,11 @@ body{
     border: none;
 }
 
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
 .btn:hover{
     background-color: #274275;
 }
@@ -52,4 +57,22 @@ body{
 .footer {
     text-align: center;
     font-size: 1.5rem;
+}
+
+.input__text {
+    font-size: 1.8rem;
+    color: #274275;
+    border-style: solid;
+    border-color: #3e6bbd;
+    border-radius: 6px;
+    padding: 4px 4px;
+    margin-top: 4px;
+}
+
+.table {
+    border-style: solid solid;
+    border-color: #3e6bbd;
+    border-radius: 6px;
+    font-size: 1.8rem;
+    margin-top: 4px;
 }
