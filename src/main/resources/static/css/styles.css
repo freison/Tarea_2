@@ -25,11 +25,31 @@ body{
     background-color: #3e6bbd;
     border-radius: 5px;
     color: white;
-    font-size: 1.5rem;
-    padding: 4px 4px;
+    font-size: 1.7rem;
+    padding: 6px 7px;
     border: none;
 }
 
 .btn:hover{
     background-color: #274275;
+}
+
+.content {
+    font-size: 2rem;
+    color: #274275;
+}
+
+.article {
+    border-style: solid;
+    border-radius: 6px;
+    padding: 4px 4px;
+}
+
+.article:hover {
+    background-color: lightgrey;
+}
+
+.footer {
+    text-align: center;
+    font-size: 1.5rem;
 }
