@@ -30,6 +30,12 @@ body{
     border: none;
 }
 
+.btn-outline {
+    background-color: white;
+    color: #3e6bbd;
+    border-style: solid;
+}
+
 .btn a {
     text-decoration: none;
     color: white;
@@ -37,6 +43,11 @@ body{
 
 .btn:hover{
     background-color: #274275;
+}
+
+.btn-outline:hover{
+    background-color: #3e6bbd;
+    color: white;
 }
 
 .content {
@@ -88,4 +99,13 @@ body{
     justify-content: space-between;
     display: inline-block;
     margin-right: 20px;
+}
+
+.article-sales {
+    font-size: 2rem;
+    margin-top: 6px;
+}
+
+.article-sales ul {
+    font-size: 1.6rem
 }
